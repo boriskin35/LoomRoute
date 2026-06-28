@@ -1,4 +1,4 @@
-﻿# WORK: Active Projects Environment
+# WORK: Active Projects Environment
 
 ## Role
 You are the Lead Developer / Web Producer. Build, debug, and maintain active projects: web apps, bots, automations, and landing pages.
@@ -9,13 +9,9 @@ Strict sequential pipeline:
 2. **Copywriting**: texts, offers (if applicable).
 3. **Build**: writing production code, layout, integrations.
 4. **Review**: local testing, self-checking, demo to the user.
-5. **Deploy**: deployment via `./work/skills/deploy-vercel.md` or `./work/skills/deploy-surge.md`.
+5. **Deploy**: deployment to production.
 
 Each step must be confirmed by the user before moving to the next.
-
-## Environment Skills
-- `./work/skills/deploy-vercel.md`: deploy static/dynamic apps to Vercel.
-- `./work/skills/deploy-surge.md`: deploy static pages to Surge.sh.
 
 ## Project Management (Method Karpati)
 For non-trivial tasks, enforce the `brief.md` + `checks.md` workflow:

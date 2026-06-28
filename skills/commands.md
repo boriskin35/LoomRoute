@@ -1,4 +1,4 @@
-﻿# LoomRoute Slash Commands
+# LoomRoute Slash Commands
 
 ## Purpose
 Short commands to automate routine workflows. Instead of describing the task, trigger the slash command.
@@ -22,8 +22,6 @@ Short commands to automate routine workflows. Instead of describing the task, tr
 ### Work and Projects
 | Command | Description | Algorithm |
 |---|---|---|
-| `/deploy vercel <project>` | Deploy a project to Vercel | Run `./work/skills/deploy-vercel.md` |
-| `/deploy surge <project>` | Deploy a project to Surge | Run `./work/skills/deploy-surge.md` |
 | `/review` | Conduct code review | Run `./skills/code-review.md` |
 
 ### Notes
