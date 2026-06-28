@@ -1,4 +1,4 @@
-﻿# LoomRoute Ecosystem Architecture
+# LoomRoute Ecosystem Architecture
 
 This document describes the design philosophy, context routing mechanics, and folder structure of the **LoomRoute** agentic framework.
 
@@ -78,7 +78,14 @@ The skeletal layout of the workspace is designed to be clean and modular:
 Adding your own commands to automate custom workflows (like deployments, database migrations, or code generation) is extremely simple:
 
 1. **Create a Skill File**: Write a Markdown file (e.g., `./skills/deploy-aws.md` or `./work/skills/deploy-vercel.md`) outlining the step-by-step algorithm the agent must follow.
-2. **Register the Command**: Open `./skills/commands.md` and add a new row to the "Command Catalogue" table mapping your custom command (e.g., `/deploy aws`) to the path of your new skill file.
-3. **Run the Command**: Simply type `/deploy aws` in your CLI agent's chat, and the agent will load the skill and execute it.
+2. **Register the Command**: Open `./skills/commands.md` and add a new row to the "Command Catalogue" table mapping your custom command (e.g., `deploy aws`) to the path of your new skill file.
+3. **Run the Command**: Simply type `deploy aws` in your CLI agent's chat, and the agent will load the skill and execute it.
+
+### Why No Slashes? (IDE UI Interception)
+
+Unlike some CLI tools that use `/command` syntax, LoomRoute commands are intentionally designed to be entered as plain words (e.g., `help` instead of `/help`):
+
+*   **System Slash Commands:** Terminal environments and IDE wrappers (like OpenCode Zen, Cursor, or Claude Code) have their own built-in commands prefixed with a slash (e.g., `/clear`, `/exit`, `/export`). These are intercepted at the GUI/client level.
+*   **LoomRoute Commands:** By using plain words (e.g., `troubleshoot`), the command bypasses client-level UI interception, goes straight to the AI agent as text, and triggers the corresponding workspace rules.
 
 
