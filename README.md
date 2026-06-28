@@ -1,0 +1,46 @@
+﻿# LoomRoute: Agentic Context Scaffold
+
+A lightweight, isolated context-routing framework designed specifically for terminal-based AI coding agents (**Claude Code**, **Opencode**, **Antigravity 2.0**, **Qwen CLI**, and **Mimo CLI**). It organizes your workspace into isolated environments (e.g., `work` and `individual`) to keep agent context clean, minimize token usage, and enforce structured workflows.
+
+> [!WARNING]
+> **IDE Compatibility:** This framework is designed specifically for terminal-based CLI agents that read `CLAUDE.md` natively on start. It is **not** fully compatible with IDEs like Cursor or Windsurf out-of-the-box, as they do not support dynamic local rule switching during chat sessions.
+
+---
+
+## 💡 Bilingual Repository / Двуязычный репозиторий
+
+This repository contains bilingual documentation (English and Russian). You can safely delete the files in the language you do not need:
+- To keep **English only**: delete all `*.RU.md` files.
+- To keep **Russian only**: delete the English `.md` files and rename the `*.RU.md` files to take their place (e.g., rename `README.RU.md` to `README.md`).
+
+---
+
+## Quick Start
+
+1. Open your terminal in the cloned `./LoomRoute` directory.
+2. Launch your CLI agent (e.g., `claude` or `qwen`).
+3. Type `/help` to see the list of available slash commands.
+4. Try creating a new environment: *"Create a new environment named learn"* or execute `/help` to see options.
+
+---
+
+## Workspace Structure
+
+- `CLAUDE.md`: Root constitution (Router agent role).
+- `registry.md`: Global routing registry.
+- `skills/`: Global agent skills (archive, safe-copy, etc. in English).
+- `templates/`: Document templates (briefs, checks).
+- `work/`: Professional environment (code, web apps, deployments).
+- `individual/`: Personal environment (Second Brain, diary, ideas).
+
+---
+
+## Detailed Guides (Documentation)
+
+For in-depth explanations, refer to the following documents inside the `./docs/` folder:
+
+- **Ecosystem Architecture:** [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md) (Russian: [docs/ARCHITECTURE.RU.md](./docs/ARCHITECTURE.RU.md)): Philosophy, visual folder tree, and file-reading protocol.
+- **Method Karpati Workflow:** [docs/METHOD_KARPATI.md](./docs/METHOD_KARPATI.md) (Russian: [docs/METHOD_KARPATI.RU.md](./docs/METHOD_KARPATI.RU.md)): Work packets (`brief.md` + `checks.md`) methodology.
+- **Catalog of Commands:** [skills/commands.md](./skills/commands.md): Detailed description of available slash commands.
+
+
