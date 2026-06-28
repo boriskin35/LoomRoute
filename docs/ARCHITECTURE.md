@@ -85,7 +85,7 @@ Adding your own commands to automate custom workflows (like deployments, databas
 
 Unlike some CLI tools that use `/command` syntax, LoomRoute commands are intentionally designed to be entered as plain words (e.g., `help` instead of `/help`):
 
-*   **System Slash Commands:** Terminal environments and IDE wrappers (like OpenCode Zen, Cursor, or Claude Code) have their own built-in commands prefixed with a slash (e.g., `/clear`, `/exit`, `/export`). These are intercepted at the GUI/client level.
+*   **System Slash Commands:** Terminal environments and IDE wrappers (like OpenCode Zen or Claude Code) have their own built-in commands prefixed with a slash (e.g., `/clear`, `/exit`, `/export`). These are intercepted at the GUI/client level.
 *   **LoomRoute Commands:** By using plain words (e.g., `troubleshoot`), the command bypasses client-level UI interception, goes straight to the AI agent as text, and triggers the corresponding workspace rules.
 
 
