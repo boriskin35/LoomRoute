@@ -1,4 +1,4 @@
-﻿# LoomRoute: Agentic Context Scaffold
+# LoomRoute: Agentic Context Scaffold
 
 A lightweight, isolated context-routing framework designed specifically for terminal-based AI coding agents (**Claude Code**, **Opencode**, **Antigravity 2.0**, **Qwen CLI**, and **Mimo CLI**). It organizes your workspace into isolated environments (e.g., `work` and `individual`) to keep agent context clean, minimize token usage, and enforce structured workflows.
 
@@ -17,10 +17,17 @@ This repository contains bilingual documentation (English and Russian). You can 
 
 ## Quick Start
 
-1. Open your terminal in the cloned `./LoomRoute` directory.
-2. Launch your CLI agent (e.g., `claude` or `qwen`).
-3. Type `/help` to see the list of available slash commands.
-4. Try creating a new environment: *"Create a new environment named learn"* or execute `/help` to see options.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/boriskin35/LoomRoute.git
+   ```
+2. Navigate into the directory:
+   ```bash
+   cd LoomRoute
+   ```
+3. Launch your CLI agent (e.g., `claude` or `qwen`).
+4. Type `/help` to see the list of available slash commands.
+5. Try creating a new environment: *"Create a new environment named learn"* or execute `/help` to see options.
 
 ---
 
