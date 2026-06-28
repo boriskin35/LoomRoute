@@ -1,4 +1,4 @@
-# LoomRoute: Agentic Context Scaffold
+﻿# LoomRoute: Agentic Context Scaffold
 
 A lightweight, isolated context-routing framework designed specifically for terminal-based AI coding agents (**Claude Code**, **Opencode**, **Antigravity 2.0**, **Qwen CLI**, and **Mimo CLI**). It organizes your workspace into isolated environments (e.g., `work` and `individual`) to keep agent context clean, minimize token usage, and enforce structured workflows.
 
@@ -57,7 +57,7 @@ LoomRoute comes with 9 preconfigured commands. If your terminal client or IDE in
 
 ## Custom Commands
 
-You can easily add your own custom commands (like `/deploy` or `/test`) in three simple steps: write a skill markdown file, register it in `skills/commands.md`, and run it. For a step-by-step guide, see [docs/ARCHITECTURE.md#4-how-to-add-custom-slash-commands](./docs/ARCHITECTURE.md#4-how-to-add-custom-slash-commands).
+You can easily add your own custom commands (like `/deploy` or `/test`) in three simple steps: write a skill markdown file, register it in `skills/commands.md`, and run it. For a step-by-step guide, see [docs/ARCHITECTURE.md#4-how-to-add-custom-commands](./docs/ARCHITECTURE.md#4-how-to-add-custom-commands).
 
 ---
 
@@ -67,12 +67,13 @@ For in-depth explanations, refer to the following documents inside the `./docs/`
 
 - **Ecosystem Architecture:** [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md) (Russian: [docs/ARCHITECTURE.RU.md](./docs/ARCHITECTURE.RU.md)): Philosophy, visual folder tree, and file-reading protocol.
 - **Method Karpati Workflow:** [docs/METHOD_KARPATI.md](./docs/METHOD_KARPATI.md) (Russian: [docs/METHOD_KARPATI.RU.md](./docs/METHOD_KARPATI.RU.md)): Work packets (`brief.md` + `checks.md`) methodology.
-- **Catalog of Commands:** [skills/commands.md](./skills/commands.md): Detailed description of available slash commands.
+- **Catalog of Commands:** [skills/commands.md](./skills/commands.md): Detailed description of available commands.
 
 ---
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 
 
