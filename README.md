@@ -1,4 +1,4 @@
-﻿# LoomRoute: Agentic Context Scaffold
+# LoomRoute: Agentic Context Scaffold
 
 A lightweight, isolated context-routing framework designed specifically for terminal-based AI coding agents (**Claude Code**, **Opencode**, **Antigravity 2.0**, **Qwen CLI**, and **Mimo CLI**). It organizes your workspace into isolated environments (e.g., `work` and `individual`) to keep agent context clean, minimize token usage, and enforce structured workflows.
 
@@ -26,7 +26,7 @@ This repository contains bilingual documentation (English and Russian). You can 
    cd LoomRoute
    ```
 3. Launch your CLI agent (e.g., `claude` or `qwen`).
-4. Type `/help` to see the list of available commands (or simply type `help` if your terminal client/IDE intercepts the slash key).
+4. Type `help` to see the list of available commands.
 5. Try creating a new environment: *"Create a new environment named learn"* or type `help` to see options.
 
 ---
@@ -44,20 +44,20 @@ This repository contains bilingual documentation (English and Russian). You can 
 
 ## Built-in Commands
 
-LoomRoute comes with 9 preconfigured commands. If your terminal client or IDE intercepts the `/` character, type them as normal text without the slash (e.g., `help` instead of `/help`):
+LoomRoute comes with 9 preconfigured commands. Type them directly into your agent's chat:
 
-- `/help` (or `help`): Lists all available commands.
-- `/troubleshoot` (or `troubleshoot`): Initiates systematic step-by-step debugging.
-- `/review` (or `review`): Audits and reviews your code.
-- `/note <text>` (or `note <text>`): Captures a quick thought into your Second Brain inbox.
-- `/notes` (or `notes`): Shows recent raw drafts in your inbox.
-- `/brief <topic>` / `/brief-lite <topic>`: Generates Karpati task briefs.
-- `/checks <topic>`: Creates verification checklists.
-- `/archive` (or `archive`): Safely archives completed work packets.
+- `help`: Lists all available commands.
+- `troubleshoot`: Initiates systematic step-by-step debugging.
+- `review`: Audits and reviews your code.
+- `note <text>`: Captures a quick thought into your Second Brain inbox.
+- `notes`: Shows recent raw drafts in your inbox.
+- `brief <topic>` / `brief-lite <topic>`: Generates Karpati task briefs.
+- `checks <topic>`: Creates verification checklists.
+- `archive`: Safely archives completed work packets.
 
 ## Custom Commands
 
-You can easily add your own custom commands (like `/deploy` or `/test`) in three simple steps: write a skill markdown file, register it in `skills/commands.md`, and run it. For a step-by-step guide, see [docs/ARCHITECTURE.md#4-how-to-add-custom-commands](./docs/ARCHITECTURE.md#4-how-to-add-custom-commands).
+You can easily add your own custom commands (like `deploy` or `test`) in three simple steps: write a skill markdown file, register it in `skills/commands.md`, and run it. For a step-by-step guide, see [docs/ARCHITECTURE.md#4-how-to-add-custom-commands](./docs/ARCHITECTURE.md#4-how-to-add-custom-commands).
 
 ---
 
