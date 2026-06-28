@@ -26,8 +26,8 @@ This repository contains bilingual documentation (English and Russian). You can 
    cd LoomRoute
    ```
 3. Launch your CLI agent (e.g., `claude` or `qwen`).
-4. Type `/help` to see the list of available slash commands.
-5. Try creating a new environment: *"Create a new environment named learn"* or execute `/help` to see options.
+4. Type `/help` to see the list of available commands (or simply type `help` if your terminal client/IDE intercepts the slash key).
+5. Try creating a new environment: *"Create a new environment named learn"* or type `help` to see options.
 
 ---
 

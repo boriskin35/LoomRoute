@@ -34,5 +34,6 @@ Short commands to automate routine workflows. Instead of describing the task, tr
 - Triggering a command replaces the task description: do not write both.
 - After running a command, wait for the result, then confirm or adjust.
 - Commands run in the context of the active environment (determined by `./registry.md`).
+- **IDE/Terminal Interception**: If your IDE chat or terminal client (like Cursor, Windsurf, or OpenCode Zen/MiMo) intercepts the `/` character, type the commands without the slash (e.g., `help` instead of `/help`, `troubleshoot` instead of `/troubleshoot`). The agent will still recognize and execute them.
 
 
