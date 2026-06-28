@@ -50,4 +50,10 @@ For in-depth explanations, refer to the following documents inside the `./docs/`
 - **Method Karpati Workflow:** [docs/METHOD_KARPATI.md](./docs/METHOD_KARPATI.md) (Russian: [docs/METHOD_KARPATI.RU.md](./docs/METHOD_KARPATI.RU.md)): Work packets (`brief.md` + `checks.md`) methodology.
 - **Catalog of Commands:** [skills/commands.md](./skills/commands.md): Detailed description of available slash commands.
 
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
 

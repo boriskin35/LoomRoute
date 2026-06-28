@@ -50,5 +50,11 @@
 - **Методология Карпати:** [docs/METHOD_KARPATI.RU.md](./docs/METHOD_KARPATI.RU.md) (English: [docs/METHOD_KARPATI.md](./docs/METHOD_KARPATI.md)): воркфлоу рабочих пакетов (`brief.md` + `checks.md`).
 - **Каталог команд:** [skills/commands.md](./skills/commands.md): подробное описание встроенных slash-команд (на английском).
 
+---
+
+## Лицензия
+
+Этот проект распространяется под свободной лицензией MIT - подробности в файле [LICENSE](./LICENSE).
+
 
 
