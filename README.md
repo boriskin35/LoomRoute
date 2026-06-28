@@ -42,6 +42,25 @@ This repository contains bilingual documentation (English and Russian). You can 
 
 ---
 
+## Built-in Commands
+
+LoomRoute comes with 9 preconfigured commands. If your terminal client or IDE intercepts the `/` character, type them as normal text without the slash (e.g., `help` instead of `/help`):
+
+- `/help` (or `help`): Lists all available commands.
+- `/troubleshoot` (or `troubleshoot`): Initiates systematic step-by-step debugging.
+- `/review` (or `review`): Audits and reviews your code.
+- `/note <text>` (or `note <text>`): Captures a quick thought into your Second Brain inbox.
+- `/notes` (or `notes`): Shows recent raw drafts in your inbox.
+- `/brief <topic>` / `/brief-lite <topic>`: Generates Karpati task briefs.
+- `/checks <topic>`: Creates verification checklists.
+- `/archive` (or `archive`): Safely archives completed work packets.
+
+## Custom Commands
+
+You can easily add your own custom commands (like `/deploy` or `/test`) in three simple steps: write a skill markdown file, register it in `skills/commands.md`, and run it. For a step-by-step guide, see [docs/ARCHITECTURE.md#4-how-to-add-custom-slash-commands](./docs/ARCHITECTURE.md#4-how-to-add-custom-slash-commands).
+
+---
+
 ## Detailed Guides (Documentation)
 
 For in-depth explanations, refer to the following documents inside the `./docs/` folder:
